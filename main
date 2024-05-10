@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Token Airdrop DApp</title>
+</head>
+<body>
+    <h1>Token Airdrop</h1>
+    <input type="file" id="csvFile" accept=".csv">
+    <button onclick="parseAndAirdrop()">Airdrop Tokens</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
